@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.page {
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cote {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+
+h1 {
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 5px 5px 5px 5px;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    padding: 5px 5px 5px 5px;
+}
+
+
+.formulaire {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+}
+
+.input-group {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10ox;
+    outline: 0;
+    border: 2px solid gold;
+    columns: #fff;
+    background: #fff;
+    font-size: 16px;
+
+}
+
+label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+
+}
+
+button {
+    padding: 10px 0;
+    outline: none;
+    background: #fff;
+    border: 2px solid gold;
+    width: 100px;
+    cursor: pointer;
+}
+
+/*mobile*/
+@media screen and (min-width:200px) and (max-width:767px) {
+    .page {
+        flex-direction: column;
+    }
+
+    .cote {
+        width: 100%;
+        height: 47%;
+
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .formulaire {
+        width: 100%;
+        height: 53%;
+    }
+
+    form {
+        width: 100%;
+        max-width: 300px;
+
+    }
+
+    .input-group {
+        margin-bottom: 10px;
+        position: relative;
+    }
+
+    input,
+    textarea {
+        width: 80%;
+        padding: 0px;
+        outline: 0;
+        border: 2px solid gold;
+        background: #fff;
+        font-size: 16px;
+
+    }
+
+    label {
+        height: 50%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 1px;
+        color: #fff;
+        cursor: text;
+
+    }
+
+    button {
+        padding: 1px 0;
+        outline: none;
+        background: #fff;
+        border: 2px solid gold;
+        width: 50px;
+        cursor: pointer;
+    }
+
+}
+
+/*tablette*/
+@media screen and (min-width:768px) and (max-width:1280px) {
+    .page {
+        flex-direction: row;
+    }
+
+    .cote {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .formulaire {
+        width: 100%;
+        height: 100%;
+    }
+
+    form {
+        width: 75%;
+        max-width: 450px;
+    }
+
+    .input-group {
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    input,
+    textarea {
+        width: 80%;
+        padding: 7ox;
+        outline: 0;
+        border: 2px solid gold;
+        columns: #fff;
+        background: #fff;
+        font-size: 16px;
+
+    }
+
+    label {
+        height: 80%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 7px;
+        color: #fff;
+        cursor: text;
+
+    }
+
+    button {
+        padding: 7px 0;
+        outline: none;
+        background: #fff;
+        border: 2px solid gold;
+        width: 80px;
+        cursor: pointer;
+    }
+
+
+}
+
+@media screen and (min-width:1281px) and (max-width:3840px) {
+    .page {
+        flex-direction: row;
+    }
+
+    .cote {
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .formulaire {
+        width: 100%;
+        height: 100vh;
+    }
+
+}
