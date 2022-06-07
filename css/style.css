@@ -19,6 +19,8 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: gray;
 }
 
@@ -38,7 +40,6 @@ p {
     margin-left: 15px;
     padding: 5px 5px 5px 5px;
 }
-
 
 .formulaire {
     width: 50%;
@@ -86,8 +87,11 @@ label {
 button {
     padding: 10px 0;
     outline: none;
-    background: yellow;
+    background: gray;
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
     cursor: pointer;
 }
@@ -233,8 +237,11 @@ button {
     button {
         padding: 7px 0;
         outline: none;
-        background: yellow;
+        background: gray;
         border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 80px;
         cursor: pointer;
     }
