@@ -86,8 +86,8 @@ label {
 button {
     padding: 10px 0;
     outline: none;
-    background: #fff;
-    border: 2px solid gold;
+    background: yellow;
+    border: 2px solid black;
     width: 100px;
     cursor: pointer;
 }
@@ -153,9 +153,15 @@ button {
     button {
         padding: 1px 0;
         outline: none;
-        background: #fff;
-        border: 2px solid gold;
-        width: 50px;
+        color: #fff;
+        background: gray;
+        border: 2px solid black;
+        width: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        height: 40px;
         cursor: pointer;
     }
 
@@ -222,8 +228,8 @@ button {
     button {
         padding: 7px 0;
         outline: none;
-        background: #fff;
-        border: 2px solid gold;
+        background: yellow;
+        border: 2px solid black;
         width: 80px;
         cursor: pointer;
     }
