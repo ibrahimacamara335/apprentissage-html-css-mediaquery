@@ -124,6 +124,10 @@ form {
     position: relative;
 }
 
+.input-group {
+    height: 30px;
+}
+
 input,
 textarea {
     width: 100%;

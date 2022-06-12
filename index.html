@@ -47,16 +47,29 @@
             <form>
                 <div class="input-group">
                     <input class="input-champ" maxlength="30" type="text" id="name" placeholder="Entrer votre nom"
-                        required>
+                        required pattern="[A-Za-z\d\. \s]{2,30}"
+                        title="Ce champ doit commencer par une lettre majiscule et sa ne prend pas des caractères speciaux">
                     <label for="name"></label>
                 </div>
                 <div class="input-group">
                     <input class="input-champ" maxlength="30" type="text" id="name" placeholder="Entrer votre prénom"
-                        required>
+                        required pattern="^[A-Z][A-Za-z\d\. \s]{2,30}"
+                        title="Ce champ doit commencer par une lettre majiscule et sa ne prend pas des caractères speciaux">
                     <label for="name"></label>
                 </div>
                 <div class="input-group">
-                    <textarea id="message" rows="8" placeholder="Entrer votre message"></textarea>
+                    <input class="input-champ" maxlength="30" type="email" id="email" placeholder="Entrer votre email"
+                        required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                    <label for="email"></label>
+                </div>
+                <div class="input-group">
+                    <input class="input-champ" minlength="9" maxlength="15" type="text" id="number"
+                        placeholder="Entrer votre numéro de téléphone" required pattern="[\+\s0-9]+"
+                        title="Ce champ accepte juste les numéros de téléphone">
+                    <label for="number"></label>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" rows="8" placeholder="Entrer votre message" required></textarea>
                     <label for="message"></label>
 
                 </div>
