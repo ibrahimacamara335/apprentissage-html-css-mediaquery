@@ -128,10 +128,9 @@ form {
 input,
 textarea {
     width: 100%;
-    padding: 10ox;
+    padding: 10px;
     outline: 0;
-    border: 2px solid gold;
-    columns: #fff;
+    border: 3px solid gray;
     background: #fff;
     font-size: 16px;
 
@@ -192,11 +191,11 @@ button {
         height: 50%;
     }
 
-    /* form {
+    form {
         width: 100%;
         max-width: 300px;
 
-    } */
+    }
 
     .input-group {
         margin-bottom: 10px;
@@ -215,9 +214,9 @@ button {
 
     }
 
-    /* .input-champ {
+    .input-champ {
         height: 20px;
-    } */
+    }
 
     label {
         height: 50%;
